@@ -1,0 +1,362 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    text-decoration: none;
+}
+body{
+	font-family: 'Microsoft YaHei',sans-serif;
+}
+.wrapper .head{
+	position: relative;
+    height: 94px;
+    padding: 0 30px;
+    background-color: #373c64;
+}
+.wrapper .headtable{
+	width: 980px;
+    height: 94px;
+    margin: 0 auto;
+    background: url(http://pic2.58.com/ui7/job/qy/mingqi/debang/deb.png) 15px 0 no-repeat;
+}
+.wrapper .nav{
+	position: relative;
+    width: 980px;
+    height: 1px;
+    margin: 0 auto;
+}
+.wrapper .nav .navbox{
+	width: 980px;
+    height: 40px;
+    overflow: hidden;
+    padding: 20px 0 10px 0;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    margin: 0 auto;
+}
+.wrapper .navbox #jobcate{
+	position: relative;
+	z-index: 10;
+}
+.wrapper #jobcate li{
+	float: left;
+    width: 100px;
+    height: 38px;
+    line-height: 38px;
+    border-right: 1px #e9e9e9 solid;
+    text-align: center;
+}
+.wrapper li a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    color: #4b4b4b;
+    font-size: 14px;
+    font-weight: 700;
+}
+.wrapper li .tittle:hover, .wrapper li .first{
+	background-color: #494e7b;
+    color: #fff;
+}
+.wrapper .container{
+	width: 980px;
+    margin: 0 auto;
+}
+.wrapper .content .contenthead{
+	height: 30px;
+}
+.wrapper .contenthead .pathjpg{
+	float: left;
+    margin-top: 4px;
+}
+.wrapper .contenthead .contenttext {
+    margin-top: 22px;
+    margin-left: 20px;
+    margin-right: 18px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.wrapper .content .xinxi{
+	position: relative;
+}
+.wrapper .content .xinxitittle{
+	margin-left: 25px;
+    margin-top: 25px;
+    display: block;
+}
+.wrapper .content .xinxitittle .inviteposition{
+	float: right;
+    position: absolute;
+    line-height: 32px;
+    width: 230px;
+    height: 32px;
+    padding-left: 8px;
+    border: 1px solid #C8C8C8;
+    color: #9A9A9A;
+    background-color: #fff;
+    top: -60px;
+    left: 110px;
+    z-index: 1000;
+}
+.wrapper .content .xinxitittle .select{
+	position: absolute;
+    width: 333px;
+    line-height: 30px;
+    height: 32px;
+    border: 1px solid #C8C8C8;
+    top: -60px;
+    left: 365px;
+}
+.wrapper .content .xinxitittle .button{
+	position: absolute;
+    left: 735px;
+    top: -66px;
+    background-color: #494e7b;
+    margin-top: 4px;
+}
+.wrapper .content .xinxitittle .search{
+	color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    width: 136px;
+}
+.wrapper .content .xinxi .contentlist{
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 980px;
+    margin-top: 25px;
+    height: 485px;
+}
+.wrapper .contentlist ul{
+    padding-left: 40px;
+    clear: both;
+    overflow: hidden;
+}
+.wrapper .contentlist .listtittle {
+    width: 940px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+}
+.wrapper .contentlist .listtittle li {
+    color: #999;
+    line-height: 36px;
+    font-size: 16px;
+    float: left;
+    height: 42px;
+}
+.wrapper .contentlist .spl {
+    width: 180px;
+    padding-right: 50px;
+}
+.wrapper .contentlist  .spl1 {
+    width: 145px;
+    overflow: hidden;
+}
+.wrapper .contentlist .splm {
+    width: 110px;
+    overflow: hidden;
+}
+.wrapper .contentlist .splw {
+    width: 165px;
+    overflow: hidden;
+}
+.wrapper .contentlist .spls {
+    width: 170px;
+    overflow: hidden;
+}
+#ul1 li span {
+    color: #8b8b8b;
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+}
+.wrapper .contentlist .date {
+    width: 120px;
+    overflow: hidden;
+}
+.wrapper .contentlist li {
+    color: #8b8b8b;
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+}
+.wrapper .contentlist ul a {
+    color: #4b4f71;
+    float: left;
+    width: 180px;
+    height: 42px;
+    overflow: hidden;
+    zoom: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.wrapper .contentlist .nearothercity{
+    font-size: 12px;
+    line-height: 2;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+.wrapper .contentlist .nearothercity a:-webkit-any-link{
+    color: -webkit-link;
+    cursor: auto;
+}
+.wrapper .contentlist .nearothercity a:hover{
+    text-decoration: underline;
+}
+.wrapper .pagerout .pager {
+    position: relative;
+    top: 535px;
+    text-align: center;
+}
+.wrapper .pagerout .pager strong {
+    height: 34px;
+    line-height: 34px;
+    display: inline-block;
+    padding: 0 13px;
+    margin-left: -1px;
+    position: relative;
+    z-index: 1;
+    background-color: #494e7b;
+    color: #fff;
+    border: 1px solid #e6e7e8;
+    font: 700 14px/34px Arial;
+    vertical-align: middle;
+}
+.wrapper .pagerout .pager a {
+    height: 34px;
+    line-height: 34px;
+    display: inline-block;
+    padding: 0 13px;
+    margin-left: -1px;
+    position: relative;
+    z-index: 1;
+    color: #494e7b;
+    border: 1px solid #e6e7e8;
+    font: 700 14px/34px Arial;
+    vertical-align: middle;
+    margin: 0;
+}
+.wrapper .pagerout .pager .next {
+    padding: 0 24px 0 19px;
+    background: url(http://img.58cdn.com.cn/global_pc/img/nextIcon.png) no-repeat 59px center;
+    font-weight: 400;
+    font-size: 12px;
+}
+.wrapper .content .contentcenter{
+    position: absolute;
+    top: 780px;
+    width: 980px;
+}
+.wrapper .content .contentcenter .pathjpg {
+    float: left;
+    margin-top: 4px;
+}
+.wrapper .content .contentcenter .centertext {
+    position: absolute;
+    width: 980px;
+    margin-left: 15px;
+    margin-right: 18px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    font-weight: bolder;
+    display: inline;
+}
+.wrapper .content .centermedia .centerplayer {
+    position: absolute;
+    top: 70px;
+    width: 400px;
+    height: 300px;
+    border: #aab0ca 1px solid;
+}
+.wrapper .content .centermedia .centermediatext {
+    position: absolute;
+    top: 70px;
+    width: 540px;
+    height: 260px;
+    float: right;
+    left: 435px;
+    font-size: 14px;
+}
+.wrapper .content .centermedia .centermediatext p {
+    line-height: 28px;
+    text-indent: 2em;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.wrapper .content .contentcenter .jobpath {
+    position: absolute;
+    top: 450px;
+    width: 980px;
+    margin: 0 auto;
+}
+.wrapper .content .contentcenter .pathtext {
+    float: left;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.wrapper .content .contentcenter .jobpath .pathpng{
+    float: left;
+}
+.wrapper .content .contentcenter .feel {
+    width: 980px;
+    position: absolute;
+    top: 630px;
+}
+.wrapper .contentcenter .feel .postermain{
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+   /* border: 1px solid black;*/
+}
+.wrapper .contentcenter .feel .posterbtn{
+    position: absolute;
+    cursor: pointer;
+    opacity: .8;
+}
+.wrapper .contentcenter .feel .posterbtn:hover{
+    opacity: 1;
+}
+.wrapper .contentcenter .feel .poster-prev-btn{
+    left: -36px;
+    top: 136px;
+    background: url(http://pic2.58.com/ui7/job/qy/mingqi/debang/lunbo_arr.png) no-repeat 0 0;
+}
+.wrapper .contentcenter .feel .poster-next-btn{
+    right: -36px;
+    top: 136px;
+    background: url(http://pic2.58.com/ui7/job/qy/mingqi/debang/lunbo_arr.png) no-repeat -36px 0;
+}
+.wrapper .contentcenter .feel .posterlist .poster-item{
+    position: absolute;
+}
+.wrapper .contentcenter .feel .posterlist img{
+    top: 0px;
+    z-index: 3;
+}
+.wrapper .footer {
+    position: relative;
+    top: 1730px;
+    background-color: #f6f6f6;
+}
+.wrapper .footercenter {
+    position: relative;
+    background-color: #373c64;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: #aaaec9;
+    margin-top: 80px;
+}
